@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const content = React.createElement("div", {id: "first"},
 [
     React.createElement("div", {id: "red"},
@@ -8,5 +11,6 @@ const content = React.createElement("div", {id: "first"},
         [React.createElement("h1", {style: {color: "green"}},"I am H1 green"),React.createElement("h2", {style: {color: "green"}},"I am H2 green")])
 ]
 );
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(content);
