@@ -1,0 +1,22 @@
+{
+  "name": "shananpk-react",
+  "version": "1.0.0",
+  "description": "Learning React Shankar Shanan PK",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shananpk95/shananpk-react.git"
+  },
+  "author": "Shankar Shanan PK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shananpk95/shananpk-react/issues"
+  },
+  "homepage": "https://github.com/shananpk95/shananpk-react#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
